@@ -1,0 +1,106 @@
+/* style.module.css */
+
+.darkSection {
+  background-color: #1f2937; /* Dark background color */
+  color: #fff; /* Text color */
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex {
+  display: flex;
+}
+
+.justifyBetween {
+  justify-content: space-between;
+}
+
+.itemsCenter {
+  align-items: center;
+}
+
+.p4 {
+  padding: 16px;
+}
+
+.bgGray200 {
+  background-color: #cbd5e0;
+}
+
+.textXl {
+  font-size: 1.25rem;
+}
+
+.fontSemibold {
+  font-weight: 600;
+}
+
+.spaceX4 {
+  display: flex;
+  gap: 1rem;
+}
+
+.textSm {
+  font-size: 0.875rem;
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.textSm:hover {
+  color: #48bb78; /* Link color on hover */
+}
+
+.wrapper {
+  padding: 1rem;
+}
+
+.spotlight {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.allPosts {
+  flex: 1;
+}
+
+.postSection {
+  width: 100%;
+}
+
+.posts {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.music {
+  background-color: #252C2E; /* Dark card background color */
+  width: 300px;
+  text-decoration: none;
+  color: #fff;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  display: block;
+}
+
+.blogImage img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+}
+
+.details {
+  padding: 1rem;
+}
+
+.head {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.description {
+  color: #cbd5e0; /* Text color */
+}
